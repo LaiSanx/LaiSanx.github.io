@@ -1,0 +1,94 @@
+body {
+    background-image: url("bluepat.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: lavenderblush;
+    font-family: 'Noto Serif KR', sans-serif;
+    font-family: 'Handlee', cursive;
+    text-align: center;
+}
+#nav {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(175,238,238);
+    font-family: 'Quattrocento', serif;
+}
+#nav li {
+    float: left;
+}
+#nav li a{
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+#nav li a:hover{
+    background-color:honeydew;
+}
+#quo {
+    font-family: 'Srisakdi', cursive;
+}
+#na {
+    font-size: small;
+    margin-top: -15px;
+}
+#content {
+    border: solid 2px blueviolet;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: mintcream;
+    background-color: rgba(255,255,255,0.7);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    margin: auto;
+}
+img {
+    max-width: 75%;
+    height: 60%;
+    object-fit: contain;
+}
+.title {
+    text-align: center;
+    font-size: 75px;
+}
+.center {
+    text-align: center;
+    font-size: 30px;
+}
+.left {
+    float: left;
+    margin: 0px;
+    object-fit: contain;
+    width: 14%;
+    height: 7%;
+}
+.right {
+    float: right;
+    margin:0px;
+    width: 20%;
+    height: auto;
+    object-fit: contain;
+}
+#content table {
+    list-style-position: outside;
+}
+#retex {
+    font-family: 'Libre Baskerville', serif;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 40px;
+    margin-bottom: -15px;
+}
+.relef {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 13px;
+    margin-bottom: -7px;
+}
