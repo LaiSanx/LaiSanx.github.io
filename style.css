@@ -92,3 +92,6 @@ img {
     font-size: 13px;
     margin-bottom: -7px;
 }
+.inline {
+    display: inline-block;
+}
