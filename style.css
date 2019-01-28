@@ -51,7 +51,6 @@ table {
 }
 img {
     max-width: 75%;
-    height: 60%;
     object-fit: contain;
 }
 .title {
@@ -93,5 +92,9 @@ img {
     margin-bottom: -7px;
 }
 .inline {
-    display: inline-block;
+    display: block;
+}
+#shorten {
+    height: 500px;
+    overflow-y: scroll;
 }

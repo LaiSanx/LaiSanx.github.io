@@ -14,6 +14,7 @@
             <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
         <div id="content">
+        <a href = "#Bank Story">Scroll Down to Bank Heist</a>
         <h2>Marazon</h2>
         <a href="https://scratch.mit.edu/projects/259138883/">Game Link</a>
         <div class="inline"><img src="home.PNG">
@@ -39,13 +40,64 @@
         of the game that would be improved would most likely adjusting how the <br>
         difficulty works and maybe making it so that the apples are individually<br>
         collected instead of a mass at once.</p>
-        <h4>More Blocks</h4>
+        <h4>More Blocks + Algorithm</h4>
         <img src="moreblocks.PNG">
-        <h4>Algorithm</h4>
-        <img src="moreblocks.PNG">
-        <p>An algorithm gives the step-by-step precdure of how the computer should <br>
-        solve a problem. This one in particular tells the computer how to handle <br>
-        the sprite and do certain things when the conditional is fulfilled.</p>
+        <p>An algorithm gives the well-defined procedure of how the computer should <br>
+        solve a problem. This algortihm is also a "More Blocks" and is defined to <br>
+        tell the computer how to handle the sprite and do certain things when the <br>
+        conditional is fulfilled. In particular, it changes the color effect by an <br>
+        integer five times and then plays a finger snap.</p>
+        <h2 id = "Bank Story">Bank Heist</h2>
+        <p>The user is at a bank. Through the user's decisions, the user can choose<br>
+        to be a security guard or a bank goer. The paths diverge so the user can choose<br>
+        to attempt to stop a robbery, stop a robbery, do nothing about the robbery, <br>
+        or even commit the robbery.</p>
+        <div id="shorten">
+        <a href="https://docs.google.com/drawings/d/1VCtISrEGgnEIVmILUczPslXyq8mllUc51wKbpbVLaME/edit?usp=sharing" target=_BLANK>
+        <img src="storyCOMPSCI.jpg" id="googleDrawings">
+        </a>
+        </div>
+        <p>My partner and I were assigned to create a story that with user input <br>
+        could arive at multiple endings. The first and largest problem was what to <br>
+        make the story about. We brainstormed with random ideas and examples that <br>
+        we previously knew. That was when my partner thought of an idea we agreed <br>
+        on, a bank setting with a robber. As we began our story on Google Drawings, <br> 
+        we began to make more decision points and routes that the user could follow <br>
+        until we ended up diverging from our original plan of having the robber <br>
+        route as the main path. After using repl.it to implement a Python program, <br>
+        we started off with importing code from our teacher that would type out <br>
+        lines of text instead of printing the block of text all at once. Then, it <br>
+        was finally time to define the scenes of the story. A defined scene would <br>
+        ask the user to accurately input a plot choice and would then use if-else <br>
+        statements to call certain scenes. For example, the user is told that they <br>
+        are at a bank and are asked to input whether they want to be a security <br>
+        guard or a bank goer. Depending on the user's choice, they would be sent <br>
+        down the guardLife() or the personLife(). The process of defining scenes, <br>
+        asking for user input, and writing if-else statments was repetive as we <br>
+        followed the flow chart we made about how users could diverge or converge <br>
+        their paths. Since we were able to finish coding the story early, I decided <br>
+        to go back to our original plan of a robber and made that a hidden route <br>
+        in the diverging paths for a bank goer.</p>
+        <p>The difficult part came when we had to debug the program, making sure <br>
+        that each pathway worked properly and that the grammar was on point. As we <br>
+        were constantly running the program, a problem came up, the moderate typing <br>
+        speed would be troublesome as we needed to run the program multiple times. <br>
+        Therefore, we used a shortkey to find and replace all the numbers into a <br>
+        variable. Lastly, we had to make sure that all the code involving user input <br>
+        would work. This included while loops to confirm that the program would print <br>
+        out 'Invalid' if the user input was not in the choices provided and fixing<br>
+        any writing typos in if-else statements. </p>
+        <p>Organizing scenes of our story into functions is a form of procedural <br>
+        abstaction because it assigns each scene a function and gives it a certain <br>
+        task of leading the user to the next scene which is very simple. Instead of <br>
+        following the option of making continuous nested if-else statements, we called <br>
+        and defined scenes into new functions because it gives the advantages of <br>
+        reducing complexity and allows for implementation of more complex procedures. </p>
+        <p>Because I prefer web novels, I won't be giving out the name. However, I <br>
+        liked the novel because the author gave the readers a reason to like each <br>
+        relevant character or at least not totally dislike the character by giving <br>
+        character development along with backstory.</p>
+        <iframe height="400px" width="100%" src="https://repl.it/@SandyNguyen/Bank-Story?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
         </div>
     </body>
 </html>
